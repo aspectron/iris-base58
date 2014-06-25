@@ -1,0 +1,38 @@
+{
+  "name": "zetta-base58",
+  "description": "Zetta Toolkit - Base58 Encoding",
+  "version": "0.0.2",
+  "author": {
+    "name": "ASPECTRON Inc.",
+    "email": "info@aspectron.com"
+  },
+  "dependencies": {
+    "bs58" : "*"
+  },
+  "keywords": [
+    "utilities",
+    "zetta",
+    "base58"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aspectron/zetta-base58"
+  },
+  "main" : "zetta-base58.js",
+  "files": [
+    "zetta-base58.js",
+    "README.md"
+  ],
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/aspectron/zetta-base58/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/aspectron/zetta-base58"
+}
