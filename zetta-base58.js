@@ -16,6 +16,9 @@ base58.decode = function(input, callback) {
 	var result = null;
 	try {
 		result = base58.decodeSync(input);
+		if ( !(result instanceof Buffer) ) {
+			result =  new Buffer(result);
+		};
 	} catch(ex) {
 		console.log(ex);
 		return callback({ error : ex });
