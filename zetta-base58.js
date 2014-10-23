@@ -1,7 +1,12 @@
 var base58 = require("bs58");
 
 base58.encodeSync = base58.encode;
-base58.decodeSync = base58.decode;
+base58.decodeSyncBytes = base58.decode;
+
+// force decode to always produce Buffer on output
+base58.decodeSync = function(arg) {
+	return new Buffer(base58.decodeSyncBytes(arg));
+}
 
 base58.encode = function(input, callback) {
 	var result = base58.encodeSync(input);
