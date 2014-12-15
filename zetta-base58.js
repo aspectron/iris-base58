@@ -5,11 +5,7 @@ base58.decodeSync_ = base58.decode;
 
 // force decode to always produce Buffer on output
 base58.decodeSync = function(arg) {
-	var result = new Buffer(base58.decodeSync_(arg));
-	if ( !(result instanceof Buffer) ) {
-		result = new Buffer(result);
-	};
-	return result;
+	return new Buffer(base58.decodeSync_(arg));
 }
 
 base58.encode = function(input, callback) {
