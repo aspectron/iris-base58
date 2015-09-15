@@ -1,6 +1,6 @@
 {
-  "name": "zetta-base58",
-  "description": "Zetta Toolkit - Base58 Encoding",
+  "name": "iris-base58",
+  "description": "IRIS Toolkit - Base58 Encoding",
   "version": "0.0.5",
   "author": {
     "name": "ASPECTRON Inc.",
@@ -11,16 +11,16 @@
   },
   "keywords": [
     "utilities",
-    "zetta",
+    "iris",
     "base58"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/aspectron/zetta-base58"
+    "url": "git://github.com/aspectron/iris-base58"
   },
-  "main" : "zetta-base58.js",
+  "main" : "iris-base58.js",
   "files": [
-    "zetta-base58.js",
+    "iris-base58.js",
     "README.md"
   ],
   "scripts": {
@@ -31,8 +31,8 @@
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/aspectron/zetta-base58/issues"
+    "url": "https://github.com/aspectron/iris-base58/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/aspectron/zetta-base58"
+  "homepage": "https://github.com/aspectron/iris-base58"
 }

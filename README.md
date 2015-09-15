@@ -1,2 +1,2 @@
-zetta-base58
+iris-base58
 ============
